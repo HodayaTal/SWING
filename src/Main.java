@@ -14,10 +14,10 @@ public class Main {
 
         MenuPanel menuPanel = new MenuPanel(0, 0, WINDOW_WIDTH / 4, WINDOW_HEIGHT);
         window.add(menuPanel);
-
+        window.setVisible(true);
         ScenePanel scenePanel = new ScenePanel(menuPanel.getWidth(), 0, WINDOW_WIDTH * 3 / 4, WINDOW_HEIGHT);
         menuPanel.setScenePanel(scenePanel);
         window.add(scenePanel);
-        window.setVisible(true);
+
     }
 }

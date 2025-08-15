@@ -24,7 +24,7 @@ public class ScenePanel extends JPanel {
     private void mainGameLoop () {
         new Thread(() -> {
             try {
-                Thread.sleep(100);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
             this.setFocusable(true);
